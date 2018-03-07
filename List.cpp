@@ -92,4 +92,35 @@ void List::remove(int k)
 	}
 	
 	//Implementations of missing operations
+		Node* List::get(int k)
+	{
+		Node* myptr=frontptr;
+	     		if(k==1)
+	     {
+		     return frontptr;
+	     }else
+		     
+	     {
+		     for(int loc =1; loc!=k; loc++)
+		     {
+			     myptr = myptr-> nextptr;
+		     }
+		     return myptr;
+	     }
+			
+	}
+			    
+			     
+			   
+			
 	
+	
+
+
+
+
+
+
+
+
+
