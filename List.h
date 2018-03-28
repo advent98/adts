@@ -1,4 +1,4 @@
-#include <iostream>
+`#include <iostream>
 #include <stdexcept>//used to be able to "throw" exceptions
 using namespace std;
 
@@ -22,12 +22,12 @@ class List //begin List definition
      
      
      /** MISSING OPERATIONS */
+
+	void clear();
+        void display();
+	int getelement(int k);
      //... fill in ....
-    Node* get(int k);
-    Node* get(int element);
-    list (int element,int k)
-     void clear();
-      
+     
       
 
 };//end List definition
