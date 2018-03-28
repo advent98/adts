@@ -1,30 +1,30 @@
 #include<iostream>
 #include "StackV.h"
 
-using namepsacestd;
-int stack::size()
+using namespace std;
+int Stack::size()
 {
 	return data.size();
 }
 
-void stack::push(int val)
+void Stack::push(int val)
 {
 	data.push_back(val);
 }
 
-void stack::pop_back()
+void Stack::pop_back()
 {
 	data.pop_back();
 }
 
-int stack::top()
+int Stack::top()
 {
 	int top = size()-1;
 	int topval = data[top];
 	return topval;
 }
 
-void stack::clear()
+void Stack::clear()
 {
 	  if(size()==0)
 	{
