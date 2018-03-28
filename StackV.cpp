@@ -12,9 +12,9 @@ void Stack::push(int val)
 	data.push_back(val);
 }
 
-void Stack::pop_back()
+void Stack::pop()
 {
-	data.pop_back();
+	data.pop();
 }
 
 int Stack::top()
